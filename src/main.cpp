@@ -5,11 +5,11 @@
 
 const int LED_PIN = 5;
 const int NUM_LEDS = 6;
-const int brightness = 60;
+const int brightness = 30;
 CRGB leds[NUM_LEDS];
-//                                  {{LED1},          {LED2},        {LED3},      {LED4},      {LED5}};
-const int high_colors[NUM_LEDS][3] = {{131, 0, 255}, {0, 0, 255}, {0, 197, 255}, {0, 255, 205}, {26, 220, 3}, {26, 220, 3}};
-const int low_colors[NUM_LEDS][3] = {{192, 149, 234}, {143, 143, 250}, {166, 235, 255}, {162, 255, 237}, {161, 240, 151}, {161, 240, 151}};
+//                                   {{LED1} Gaming, {LED2} Vivaldi, {LED3} Spotify, {LED4} Discord, {LED5}} Windows System,{LED6}} Rest;
+const int high_colors[NUM_LEDS][3] = {{155, 48, 255}, {228, 61, 64}, {30, 215, 96}, {114, 137, 218}, {0, 161, 241}, {114, 137, 21}};
+const int low_colors[NUM_LEDS][3] = {{20, 5, 25}, {23, 6, 6}, {3, 21, 10}, {11, 14, 22}, {0, 16, 24}, {11, 14, 2}};
 
 //Deej
 const int NUM_SLIDERS = 6;
